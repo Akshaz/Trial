@@ -14,10 +14,9 @@ deploy:
     region: "us-east-2"
     app: "Trial"
     env: "Trial-env"
-    bucket_name: "elasticbeanstalk-us-east-2-149958623134"
+    bucket: "elasticbeanstalk-us-east-2-149958623134"
     bucket_path: "Trial"
     on:
         branch: "master"
     access_key_id: $access_key_id
-    secret_access_key: 
-        secure: "$secret_access_key"
+    secret_access_key: "$secret_access_key"
