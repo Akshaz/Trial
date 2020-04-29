@@ -14,7 +14,7 @@ deploy:
     region: "us-east-2"
     app: "docker-trial"
     env: "DockerTrial-env"
-    bucket: "elasticbeanstalk-us-east-2-149958623134"
+    bucket_name: "elasticbeanstalk-us-east-2-149958623134"
     bucket_path: "docker-trial"
     on:
         branch: "master"
